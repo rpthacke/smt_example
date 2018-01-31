@@ -1,7 +1,7 @@
 """syncing up interpolators."""
 import numpy as np
 import matplotlib.pyplot as plt
-
+import suckit
 from smt.methods import RMTC, RMTB
 from lib.thrust_data import thrust_problem, make_plot
 from lib.interpolate import RegularGridInterpolator
